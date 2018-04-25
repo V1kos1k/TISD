@@ -1,0 +1,28 @@
+digraph BST {
+    node [fontname="Arial"];
+    in -> hail;
+    hail -> a;
+    null0 [shape=point];
+    a -> null0;
+    a -> am;
+    am -> absent;
+    null1 [shape=point];
+    absent -> null1;
+    null2 [shape=point];
+    absent -> null2;
+absent [style=filled, fillcolor=lightblue];
+    null3 [shape=point];
+    am -> null3;
+am [style=filled, fillcolor=lightblue];
+a [style=filled, fillcolor=lightblue];
+    null4 [shape=point];
+    hail -> null4;
+    in -> oar;
+    null5 [shape=point];
+    oar -> null5;
+    oar -> ugly;
+    null6 [shape=point];
+    ugly -> null6;
+    null7 [shape=point];
+    ugly -> null7;
+}
